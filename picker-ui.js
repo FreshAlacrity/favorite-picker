@@ -32,9 +32,7 @@
         /* UI ELEMENTS */
 
         this.elem = jquerify(options.elements || {});
-        if (!this.elem.settings) {
-            this.elem.settings = {};
-        }
+        if (!this.elem.settings) { this.elem.settings = {} }
 
         /* EVENT HANDLERS FOR SETTINGS */
 
